@@ -21,15 +21,23 @@
 // var_dump($names);
 
 
-$sekolah = array(
-  "id" => "1",
-  "name" => "SMK IDN Boarding School",
-  "address" => array(
-      "city" => "Jonggol",
-      "country" => "Indonesia"
-  )
-);
+// $sekolah = array(
+//   "id" => "1",
+//   "nama" => "SMK IDN Boarding School",
+// );
+//menampilkan seluruh array
 // var_dump($sekolah);
 
-var_dump($sekolah["name"]);
+//menampilkan arrat sesuai index
+// var_dump($sekolah["nama"]);
+
+$sekolah = array(
+  "id" => "1",
+  "nama" => "SMK IDN Boarding School",
+  "address" => array(
+    "city" => "Jonggol",
+    "country" => "Indonesia"
+    )
+  );
+
 var_dump($sekolah["address"]["country"]);
